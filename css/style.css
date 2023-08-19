@@ -43,7 +43,7 @@ nav, .nav-list, .header-logo , .contacts-list {
   align-items: center;
 }
 
-.nav-list, .contacts-list{
+.nav-list, .contacts-list, .header-logo{
   gap: 40px;
   padding: 0;
   padding: 24px 0 24px 0;
