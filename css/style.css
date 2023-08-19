@@ -117,6 +117,8 @@ nav, .nav-list, .header-logo , .contacts-list {
 }
 .section-benefits-main-title{
   visibility: hidden;
+  pointer-events: none;
+  position: absolute;
 }
 .section-benefits-list{
   display: flex;
