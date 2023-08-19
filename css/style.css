@@ -22,9 +22,7 @@ background: var(--ocean, #404BBF);
   margin: 0 auto;
   padding: 0 15px;
 }
-.section{
-  padding: 120px 156px;
-}
+
 /* #endregion */
 /* #region header */
 header{
@@ -83,7 +81,7 @@ nav, .nav-list, .header-logo , .contacts-list {
 /* #region section main */
 .section.main{
   background: var(--navyblue, #2E2F42); 
-  padding: 188px;
+  padding: 188px 0;
 }
 .section.main .container{
   display: flex;
@@ -97,7 +95,7 @@ nav, .nav-list, .header-logo , .contacts-list {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  margin: 0 316px 48px 316px;
+  max-width: 496px;
 }
 .section-main-button{
   background: var(--iris, #4D5AE5);
@@ -110,12 +108,15 @@ nav, .nav-list, .header-logo , .contacts-list {
   padding: 16px 32px;
   border: 0;
   border-radius: 4px;
+  min-width: 169px;
 }
 /* #endregion */
 /* #region section benefits */
-
+.section.benefits{
+  padding: 120px 0;
+}
 .section-benefits-main-title{
-  display: none;
+  visibility: hidden;
 }
 .section-benefits-list{
   display: flex;
@@ -127,9 +128,7 @@ nav, .nav-list, .header-logo , .contacts-list {
 .section-benefits-list li{
   display: flex;
   flex-direction: column;
-  margin: 0;
-  padding: 0;
-  gap: 8px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
   }
 .section-benefits-third-title{
   font-size: 20px;
@@ -137,7 +136,7 @@ nav, .nav-list, .header-logo , .contacts-list {
   line-height: 1.2;
   letter-spacing: 0.4px;
   color: var(--navyblue, #2E2F42);
-  margin: 0;
+  margin: 0 0 8px 0;
 }
 .section-benefits-text{
   line-height: 1.5;
@@ -230,12 +229,13 @@ nav, .nav-list, .header-logo , .contacts-list {
 /* #region footer */
 footer{
   background: var(--navyblue, #2E2F42);
-  padding: 100px 0 100px 156px;
+  padding: 100px 0;
 }
 footer .container{
   margin: 0;
 }
 .footer-logo{
+  display: inline-block;
   color: var(--iris, #4D5AE5);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -243,16 +243,16 @@ footer .container{
   line-height: 1.17; 
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  margin-bottom: 16px;
 }
 .footer-logo-part{
   color: var(--cloud, #F4F4FD);
 }
 .footer-text{
-  margin: 16px 0 0 0;
   color: var(--cloud, #F4F4FD);
   line-height: 1.5;
   letter-spacing: 0.32px;
-  width: 264px;
+  max-width: 264px;
 }
 
 
