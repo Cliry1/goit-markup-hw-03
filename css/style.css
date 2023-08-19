@@ -46,10 +46,9 @@ nav, .nav-list, .header-logo , .contacts-list {
 .nav-list, .contacts-list{
   gap: 40px;
   padding: 0;
-}
-.contacts-list{
   padding: 24px 0 24px 0;
 }
+
 .header-logo{
   color: var(--iris, #4D5AE5);
   text-transform: uppercase;
