@@ -256,6 +256,7 @@ nav, .nav-list, .header-logo , .contacts-list {
 footer{
   background: var(--navyblue, #2E2F42);
   padding: 100px 0;
+  padding-left: 156px;
 }
 footer .container{
   margin: 0;
@@ -279,6 +280,7 @@ footer .container{
   line-height: 1.5;
   letter-spacing: 0.32px;
   max-width: 264px;
+  margin: 0;
 }
 
 
