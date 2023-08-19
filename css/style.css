@@ -20,7 +20,7 @@ background: var(--ocean, #404BBF);
 .container { 
   max-width: 1158px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 15px;
 }
 .section{
   padding: 120px 156px;
@@ -37,16 +37,18 @@ header{
 header .container{
   display: flex;
   justify-content: space-between;
-
 }
 nav, .nav-list, .header-logo , .contacts-list {
-  display: inline-flex;
+  display: flex;
   align-items: center;
 }
+
 .nav-list, .contacts-list{
   gap: 40px;
-  margin: 24px 0 24px 0;
   padding: 0;
+}
+.contacts-list{
+  padding: 24px 0 24px 0;
 }
 .header-logo{
   color: var(--iris, #4D5AE5);
