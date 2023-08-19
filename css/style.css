@@ -37,16 +37,17 @@ header{
 header .container{
   display: flex;
   justify-content: space-between;
+  padding: 24px 0 24px 0;
 }
 nav, .nav-list, .header-logo , .contacts-list {
   display: flex;
   align-items: center;
 }
 
-.nav-list, .contacts-list, .header-logo{
+.nav-list, .contacts-list{
   gap: 40px;
   padding: 0;
-  padding: 24px 0 24px 0;
+  margin: 0;
 }
 
 .header-logo{
@@ -57,7 +58,7 @@ nav, .nav-list, .header-logo , .contacts-list {
   line-height: 1.17;
   font-weight: 700;
   font-size: 18px;
-  margin: 24px 76px 24px 0;
+  margin: 0 76px 0 0;
 }
 .header-logo-part{
   color: var(--navyblue, #2E2F42);
