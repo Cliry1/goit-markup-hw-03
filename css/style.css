@@ -258,11 +258,8 @@ nav, .nav-list, .header-logo , .contacts-list {
 footer{
   background: var(--navyblue, #2E2F42);
   padding: 100px 0;
-  padding-left: 156px;
 }
-footer .container{
-  margin: 0;
-}
+
 .footer-logo{
   display: inline-block;
   color: var(--iris, #4D5AE5);
